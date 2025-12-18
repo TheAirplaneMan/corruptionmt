@@ -3,7 +3,7 @@ minetest.register_node("corruptionmt:dirt_with_ebongrass", {
 	tiles = {"corruptionmt_ebongrass_top.png", "default_dirt.png",
 		{name = "default_dirt.png^corruptionmt_ebongrass.png",
 			tileable_vertical = false}},
-	groups = {crumbly = 3, soil = 1, spreading_dirt_type = 1},
+	groups = {crumbly = 3, soil = 1, spreading_dirt_type = 1, corruption_biome = 1 },
 	drop = "default:dirt",
 	sounds = default.node_sound_dirt_defaults({
 		footstep = {name = "default_grass_footstep", gain = 0.25},
@@ -13,7 +13,7 @@ minetest.register_node("corruptionmt:dirt_with_ebongrass", {
 minetest.register_node("corruptionmt:ebonstone", {
 	description = ("Ebonstone"),
 	tiles = {"corruptionmt_ebonstone.png"},
-	groups = {cracky = 1, stone = 1},
+	groups = {cracky = 1, stone = 1, corruption_biome = 1 },
 	drop = "corruptionmt:ebonstone_cobble",
 	sounds = default.node_sound_stone_defaults(),
 })
