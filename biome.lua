@@ -18,7 +18,7 @@
 	})
 
 	minetest.register_biome({
-		name = "grassland_ocean",
+		name = "corruption_ocean",
 		node_top = "default:sand",
 		depth_top = 1,
 		node_filler = "default:sand",
@@ -36,11 +36,8 @@
 	})
 
 	minetest.register_biome({
-		name = "grassland_under",
+		name = "corruption_under",
 		node_cave_liquid = {"default:water_source", "default:lava_source"},
-		node_stone = "corruptionmt:ebonstone",
-		node_dungeon = "corruptionmt:ebonstone_cobble",
---		node_dungeon_stair = "stairs:stair_cobble",
 		y_max = -256,
 		y_min = -31000,
 		heat_point = 52,

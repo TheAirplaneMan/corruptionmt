@@ -18,6 +18,14 @@ minetest.register_node("corruptionmt:ebonstone", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
+minetest.register_node("corruptionmt:ebonstone_with_mese", {
+	description = ("Ebonstone Mese Ore"),
+	tiles = {"corruptionmt_ebonstone.png^default_mineral_mese.png"},
+	groups = {cracky = 1},
+	drop = "default:mese_crystal",
+	sounds = default.node_sound_stone_defaults(),
+})
+
 minetest.register_node("corruptionmt:ebonstone_cobble", {
 	description = ("Ebonstone"),
 	tiles = {"corruptionmt_ebonstone_cobble.png"},
