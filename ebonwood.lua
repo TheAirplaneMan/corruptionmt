@@ -20,6 +20,13 @@ minetest.register_node("corruptionmt:ebonwood_wood", {
 	sounds = default.node_sound_wood_defaults(),
 })
 
+minetest.register_craft({
+	output = "corruptionmt:ebonwood_wood 4",
+	recipe = {
+		{"corruptionmt:ebonwood_tree"},
+	}
+})
+
 minetest.register_node("corruptionmt:ebonwood_leaves", {
 	description = ("Ebonwood Tree Leaves"),
 	drawtype = "allfaces_optional",
