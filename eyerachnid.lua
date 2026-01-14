@@ -24,7 +24,7 @@ mobs:register_mob("corruptionmt:eyerachnid", {
 	view_range = 15,
 	floats = 0,
 	drops = {
-		{name = "farming:string", chance = 1, min = 0, max = 2}
+		{name = "corruptionmt:rotten_eye", chance = 1, min = 0, max = 1}
 	},
 	water_damage = 0,
 	lava_damage = 2,

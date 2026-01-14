@@ -1,6 +1,8 @@
 -- Load files
 local modpath = minetest.get_modpath("corruptionmt")
 
+dofile(modpath.."/choker.lua")
+dofile(modpath.."/corrupt_mind.lua")
 dofile(modpath.."/ebonsphere.lua")
 dofile(modpath.."/eyeman.lua")
 dofile(modpath.."/ebonwood.lua")
@@ -10,6 +12,8 @@ dofile(modpath.."/biome.lua")
 dofile(modpath.."/mobs.lua")
 dofile(modpath.."/items.lua")
 dofile(modpath.."/eyerachnid.lua")
+dofile(modpath.."/shadow_steel.lua")
+dofile(modpath.."/plants.lua")
 
 local CHECK_RADIUS = 6
 local FADE_SPEED = 0.5

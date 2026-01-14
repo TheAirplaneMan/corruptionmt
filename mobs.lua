@@ -26,9 +26,9 @@ mobs:register_mob("corruptionmt:corruptor", {
 	run_velocity = 5,
 	view_range = 28,
 	jump = false,
---	drops = {
---		{name = "default:lava_source", chance = 3, min = 0, max = 2}
---	},
+	drops = {
+		{name = "corruptionmt:rotten_eye", chance = 1, min = 0, max = 1}
+	},
 	lava_damage = 2,
 })
 

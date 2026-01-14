@@ -18,3 +18,8 @@ minetest.register_craftitem("corruptionmt:grapes_of_wrath", {
 		return "corruptionmt:grapes_of_wrath "..count-1
 	end,
 })
+
+minetest.register_craftitem("corruptionmt:rotten_eye", {
+	description = "Rotten Eye",
+	inventory_image = "corruptionmt_rotten_eye.png"
+})

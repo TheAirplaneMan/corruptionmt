@@ -49,3 +49,24 @@ minetest.register_node("corruptionmt:deaththorns", {
 	-- Damage when touched / stepped on
 	damage_per_second = 2,
 })
+
+minetest.register_node("corruptionmt:rotlilies", {
+	description = "Rotlilies",
+	drawtype = "plantlike",
+	tiles = {"corruptionmt_rotlilies.png"},
+	inventory_image = "corruptionmt_rotlilies.png",
+	wield_image = "corruptionmt_rotlilies.png",
+
+	paramtype = "light",
+	sunlight_propagates = true,
+	walkable = false,
+	buildable_to = true,
+
+	groups = {snappy = 3, flammable = 2, plant = 1, attached_node = 1},
+	sounds = default.node_sound_leaves_defaults(),
+
+	selection_box = {
+		type = "fixed",
+		fixed = {-0.3, -0.5, -0.3, 0.3, 0.3, 0.3},
+	},
+})

@@ -13,7 +13,7 @@ mobs:register_mob("corruptionmt:eyeman", {
 	mesh = "mobs_stone_monster.b3d",
 	textures = {{"eyeman_texture.png"}},
 	makes_footstep_sound = true,
---	sounds = {random = "mobs_stonemonster"},
+	sounds = {random = "terralibmt_gross2_random"},
 	walk_velocity = 1,
 	run_velocity = 4,
 	jump_height = 0,
@@ -21,9 +21,7 @@ mobs:register_mob("corruptionmt:eyeman", {
 	floats = 0,
 	view_range = 10,
 	drops = {
-		{name = "default:cobble", chance = 1, min = 0, max = 2},
-		{name = "default:coal_lump", chance = 3, min = 0, max = 2},
-		{name = "default:iron_lump", chance = 5, min = 0, max = 2}
+		{name = "corruptionmt:rotten_eye", chance = 1, min = 0, max = 1}
 	},
 	water_damage = 0,
 	lava_damage = 2,
